@@ -7,7 +7,7 @@ namespace ConsoleApp1
         struct MyStruct
         {
             public int b;
-            public int c;
+            public int cr;
             public State st;
         }
 
@@ -33,7 +33,7 @@ namespace ConsoleApp1
             }
             MyStruct str = new MyStruct()
             {
-                c = 3,
+                cr = 3,
                 b = 4,
                 st = State.error
             };
